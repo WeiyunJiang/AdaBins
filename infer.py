@@ -159,3 +159,4 @@ if __name__ == '__main__':
     print(f"took :{time() - start}s")
     plt.imshow(pred.squeeze(), cmap='magma_r')
     plt.show()
+    plt.savefig('test_imgs/classroom__rgb_00283_depth.jpg')
